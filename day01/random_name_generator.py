@@ -22,4 +22,7 @@ while True:
     
 #print the generated name after capitalizing the entered names
 
-x =  (f"Your name cane be = {friends_name}",f" {pets_name}" ,friends_name.title(), pets_name.title())
+fn = friends_name.title()
+pn = pets_name.title()
+
+print(f"Your name cane be = {fn}_{pn}")
